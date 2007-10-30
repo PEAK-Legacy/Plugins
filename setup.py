@@ -28,7 +28,7 @@ setup(
     description="Easily add hooks and plugins to your applications",
     long_description = open('README.txt').read(), # get_description(),
     install_requires=[
-        'setuptools>=0.6c', 'Contextual>=0.7dev', 'DecoratorTools>=1.5'],
+        'setuptools>=0.6c', 'Contextual>=0.7a1dev,==dev', 'DecoratorTools>=1.5'],
     author="Phillip J. Eby",
     author_email="peak@eby-sarna.com",
     license="PSF or ZPL",
