@@ -364,3 +364,12 @@ Questions, discussion, and bug reports for this software should be directed to
 the PEAK mailing list; see http://www.eby-sarna.com/mailman/listinfo/PEAK/
 for details.
 
+
+Implementation Status
+=====================
+
+While the ``PluginManager`` features are still in development (and remain
+undocumented), this package is only available via SVN checkout.  However,
+all documented features are tested and usable, and I don't expect any
+significant changes to the APIs currently documented here.
+

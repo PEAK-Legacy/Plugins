@@ -6,9 +6,8 @@ from setuptools import setup
 
 # Metadata
 PACKAGE_NAME = "Plugins"
-PACKAGE_VERSION = "0.5"
+PACKAGE_VERSION = "0.5a1"
 PACKAGES = ['peak', 'peak.util']
-
 def get_description():
     # Get our long description from the documentation
     f = file('README.txt')
@@ -34,6 +33,7 @@ setup(
     author_email="peak@eby-sarna.com",
     license="PSF or ZPL",
     url="http://pypi.python.org/pypi/Plugins",
+    download_url = "svn://svn.eby-sarna.com/svnroot/Plugins#egg=Plugins-dev",
     test_suite = 'peak.util.plugins',
     packages = PACKAGES,
     namespace_packages = PACKAGES,
